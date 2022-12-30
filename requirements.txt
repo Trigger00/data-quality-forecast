@@ -1,0 +1,6 @@
+requests==2.25.1
+pandas
+scipy
+scikit-learn
+numpy
+psycopg2-binary

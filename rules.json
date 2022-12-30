@@ -1,0 +1,133 @@
+{
+    "ExcludedCountries": [
+        "",
+        ""
+    ],
+    "RulesEngine": [
+        {
+            "ValidationType": "Detection",
+            "Table": "",
+            "Column": "",
+            "IssueType": "NULL",
+            "Join": [
+                {
+                    "Value": ""
+                },
+                {
+                    "Value": ""
+                }
+            ],
+            "Where": [
+                {
+                    "ParentFilter": "",
+                    "CustomFilter": ""
+                }
+            ],
+            "GroupBy": [
+                {
+                    "Column": ""
+                }
+            ],
+            "OrderBy": [
+                {
+                    "Column": "",
+                    "Type": ""
+                }
+            ]
+        },
+        {
+            "ValidationType": "Detection",
+            "Table": ".",
+            "Column": "",
+            "IssueType": "NULL",
+            "Join": [
+                {
+                    "Value": ""
+                },
+                {
+                    "Value": ""
+                }
+            ],
+            "Where": [
+                {
+                    "ParentFilter": "",
+                    "CustomFilter": ""
+                }
+            ],
+            "GroupBy": [
+                {
+                    "Column": "codpais"
+                }
+            ],
+            "OrderBy": [
+                {
+                    "Column": "codpais",
+                    "Type": "ASC"
+                }
+            ]
+        },
+        {
+            "ValidationType": "Detection",
+            "Table": "",
+            "Column": "codventa",
+            "IssueType": "NULL & Zeros",
+            "Join": [
+                {
+                    "Value": ""
+                },
+                {
+                    "Value": ""
+                }
+            ],
+            "Where": [
+                {
+                    "ParentFilter": "'",
+                    "CustomFilter": ""
+                }
+            ],
+            "GroupBy": [
+                {
+                    "Column": ""
+                }
+            ],
+            "OrderBy": [
+                {
+                    "Column": "",
+                    "Type": ""
+                }
+            ]
+        },
+        {
+            "ValidationType": "Detection",
+            "Table": "",
+            "Column": "",
+            "IssueType": "",
+            "Join": [],
+            "Where": [
+                {
+                    "ParentFilter": "",
+                    "CustomFilter": ""
+                }
+            ],
+            "GroupBy": [
+                {
+                    "Column": ""
+                }
+            ]
+        },
+        {
+            "ValidationType": "Evaluation",
+            "Table": "",
+            "IssueType": "Intervalo de Confianza",
+            "Columns": "",
+            "ColumnFunction": "",
+            "Join": [],
+            "Where": [
+                {
+                    "Value": ""
+                }
+            ],
+            "GroupBy": ""
+        }
+    ]
+}
